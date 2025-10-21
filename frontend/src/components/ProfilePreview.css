@@ -1,0 +1,31 @@
+.profile-preview {
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.preview-logo {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.preview-details {
+  margin-top: 16px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.preview-details p {
+  margin: 8px 0;
+}
+
+/* Dark theme support */
+:root[data-theme="dark"] .profile-preview {
+  background: #2a2a2a;
+}
+
+:root[data-theme="dark"] .preview-details {
+  color: #999;
+}
